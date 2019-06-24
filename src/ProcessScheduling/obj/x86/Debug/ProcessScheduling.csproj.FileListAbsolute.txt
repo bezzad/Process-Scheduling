@@ -1,0 +1,10 @@
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\bin\Debug\ProcessScheduling.exe.config
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\bin\Debug\ProcessScheduling.exe
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\bin\Debug\ProcessScheduling.pdb
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.csprojAssemblyReference.cache
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.MainForm.resources
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.ResultForm.resources
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.csproj.GenerateResource.cache
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.csproj.CoreCompileInputs.cache
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.exe
+D:\programming\Projecting\Process-Scheduling\src\ProcessScheduling\obj\x86\Debug\ProcessScheduling.pdb

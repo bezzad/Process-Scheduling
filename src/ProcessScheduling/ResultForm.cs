@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace ProcessScheduling
@@ -211,7 +208,7 @@ namespace ProcessScheduling
                         sortedLstProcess.Values[index].NumberName, Environment.NewLine,
                         sortedLstProcess.Values[index].EntryTime, sortedLstProcess.Values[index].Duration),
                         sortedLstProcess.Values[index].ProcessColor,
-                        new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     sortedLstProcess.RemoveAt(index); // remove coming process to queue from sorted ready work list
                 }
@@ -239,7 +236,7 @@ namespace ProcessScheduling
                                           "and move it to ready queue list at time ({2}){0}",
                                           Environment.NewLine, runningProcess.NumberName, timerSecond),
                             runningProcess.ProcessColor,
-                            new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                            new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                         //
                         // Peek new process of Queue Heads to work 
                         runningProcess = procQueue.Dequeue();
@@ -251,7 +248,7 @@ namespace ProcessScheduling
                                           Environment.NewLine, runningProcess.NumberName,
                                           timerSecond, runningProcess.Duration),
                             runningProcess.ProcessColor,
-                            new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                            new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                         //
                         dgvTimeScheduling[runningProcess.NumberName, timerSecond].Style.BackColor = runningProcess.ProcessColor;
                         runningProcess.Duration--; // work this process at this time!
@@ -273,7 +270,7 @@ namespace ProcessScheduling
                                       Environment.NewLine, runningProcess.NumberName,
                                       timerSecond),
                         runningProcess.ProcessColor,
-                        new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     #region Is Ready Process Queue Empty?
                     if (procQueue.Count > 0) // No, exist ready process in Queue.
@@ -287,7 +284,7 @@ namespace ProcessScheduling
                                           Environment.NewLine, runningProcess.NumberName,
                                           timerSecond, runningProcess.Duration),
                             runningProcess.ProcessColor,
-                            new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                            new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                         //
                         dgvTimeScheduling[runningProcess.NumberName, timerSecond].Style.BackColor = runningProcess.ProcessColor;
                         runningProcess.Duration--;
@@ -319,7 +316,7 @@ namespace ProcessScheduling
                                       Environment.NewLine, runningProcess.NumberName,
                                       timerSecond, runningProcess.Duration),
                         runningProcess.ProcessColor,
-                        new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     dgvTimeScheduling[runningProcess.NumberName, timerSecond].Style.BackColor = runningProcess.ProcessColor;
                     runningProcess.Duration--;
@@ -393,12 +390,12 @@ namespace ProcessScheduling
                     setRichTextBox_Text(
                         string.Format("{1}Process {0} was entered:{1}Entry Time to Ready List: {2}{1}", 
                         runningProcess.NumberName, Environment.NewLine, runningProcess.EntryTime),
-                        runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
 
                     setRichTextBox_Text(
                         string.Format("Start Time: {1}{0}Waiting Time: {2}{0}Remaining Time: {3}{0}",
                         Environment.NewLine, timerSecond, (timerSecond - runningProcess.EntryTime), runningProcess.Duration),
-                        runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     runningProcess.Duration--;
                 }
@@ -416,7 +413,7 @@ namespace ProcessScheduling
                     // Write Compiler Text
                     setRichTextBox_Text(
                         string.Format("Process {0} was completed at time ({1}){2}", runningProcess.NumberName, timerSecond, Environment.NewLine),
-                        runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     processExist = false;
                     sortedLstProcess.RemoveAt(0);
@@ -485,12 +482,12 @@ namespace ProcessScheduling
                         setRichTextBox_Text(
                             string.Format("{1}Process {0} was entered:{1}Entry Time to Ready List: {2}{1}",
                             runningProcess.NumberName, Environment.NewLine, runningProcess.EntryTime),
-                            runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                            runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
 
                         setRichTextBox_Text(
                             string.Format("Start Time: {1}{0}Waiting Time: {2}{0}Remaining Time: {3}{0}",
                             Environment.NewLine, timerSecond, (timerSecond - runningProcess.EntryTime), runningProcess.Duration),
-                            runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                            runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                         //
                         runningProcess.Duration--;
                     }
@@ -509,7 +506,7 @@ namespace ProcessScheduling
                     // Write Compiler Text
                     setRichTextBox_Text(
                         string.Format("Process {0} was completed at time ({1}){2}", runningProcess.NumberName, timerSecond, Environment.NewLine),
-                        runningProcess.ProcessColor, new Font(FontFamily.Families[0], 10F, FontStyle.Bold));
+                        runningProcess.ProcessColor, new Font("Microsoft Sans Serif", 10F, FontStyle.Bold));
                     //
                     processExist = false;
                     lstProcessedName.Add(runningProcess.NumberName);

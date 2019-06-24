@@ -6,11 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ProcessScheduling")]
-[assembly: AssemblyDescription("This Program Created by Mr.Behzad Khosravifar")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Behzad.kh")]
 [assembly: AssemblyProduct("Process Scheduling")]
-[assembly: AssemblyCopyright("Copyright © Behzad.kh 2011")]
+[assembly: AssemblyCopyright("Copyright © 2011-2019")]
 [assembly: AssemblyTrademark("B.B")]
 [assembly: AssemblyCulture("")]
 

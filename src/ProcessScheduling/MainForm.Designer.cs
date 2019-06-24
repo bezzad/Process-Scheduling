@@ -65,19 +65,19 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Monotype Corsiva", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblTitle.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblTitle.Location = new System.Drawing.Point(63, 4);
+            this.lblTitle.Location = new System.Drawing.Point(23, 6);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(558, 43);
+            this.lblTitle.Size = new System.Drawing.Size(629, 41);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Process Scheduling Algorithms Simulator";
             // 
             // grbProcessData
             // 
-            this.grbProcessData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.grbProcessData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grbProcessData.Controls.Add(this.panelProcessInfo);
             this.grbProcessData.Location = new System.Drawing.Point(12, 50);
             this.grbProcessData.Name = "grbProcessData";
@@ -88,9 +88,9 @@
             // 
             // panelProcessInfo
             // 
-            this.panelProcessInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelProcessInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelProcessInfo.AutoScroll = true;
             this.panelProcessInfo.BackColor = System.Drawing.Color.Bisque;
             this.panelProcessInfo.Location = new System.Drawing.Point(6, 19);
@@ -129,11 +129,11 @@
             this.btnToggleStartStop.AutoSize = true;
             this.btnToggleStartStop.BackColor = System.Drawing.Color.LightBlue;
             this.btnToggleStartStop.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnToggleStartStop.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnToggleStartStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToggleStartStop.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnToggleStartStop.Location = new System.Drawing.Point(18, 293);
+            this.btnToggleStartStop.Location = new System.Drawing.Point(18, 290);
             this.btnToggleStartStop.Name = "btnToggleStartStop";
-            this.btnToggleStartStop.Size = new System.Drawing.Size(58, 31);
+            this.btnToggleStartStop.Size = new System.Drawing.Size(56, 34);
             this.btnToggleStartStop.TabIndex = 3;
             this.btnToggleStartStop.Text = "&Start";
             this.toolTip1.SetToolTip(this.btnToggleStartStop, "Toggle Between Start / Stop");
@@ -269,11 +269,11 @@
             // 
             this.lblNumProcess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNumProcess.AutoSize = true;
-            this.lblNumProcess.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumProcess.ForeColor = System.Drawing.Color.Red;
             this.lblNumProcess.Location = new System.Drawing.Point(633, 301);
             this.lblNumProcess.Name = "lblNumProcess";
-            this.lblNumProcess.Size = new System.Drawing.Size(16, 18);
+            this.lblNumProcess.Size = new System.Drawing.Size(19, 20);
             this.lblNumProcess.TabIndex = 6;
             this.lblNumProcess.Text = "0";
             // 
@@ -412,8 +412,8 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(684, 396);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
